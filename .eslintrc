@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "@antfu",     
+    // "stylelint-config-standard-scss", // configure for SCSS
+    // "stylelint-config-recommended-vue", // add overrides for .Vue files
+    // "stylelint-config-recess-order", // use the recess order for properties
+    // "stylelint-config-css-modules", // configure for CSS Modules methodology
+    // "stylelint-config-prettier" // turn off any rules that conflict with Prettier],
+  ],
+  "rules": {
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "@typescript-eslint/quotes": [
+        "error",
+        "double"
+      ],
+      "@typescript-eslint/semi": ["error", "always"],
+      "curly": ["error", "all"],
+      "no-console": "off",
+      "@typescript-eslint/brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+      // "import/no-mutable-exports": "off",
+      // "no-import-assign": "off",
+      "max-len": ["error", { "code": 120 }],
+    }
+  }

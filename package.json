@@ -1,0 +1,21 @@
+{
+  "name": "pinia-vs-reactive",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.8",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.46.0",
+    "vite": "^4.4.5"
+  }
+}
